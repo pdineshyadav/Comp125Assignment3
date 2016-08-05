@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+Filename = contact.html
+@author Dinesh Palle
+@date : 3rd June 2016
+StudentID : 300705307
+Website : http://comp125assignment2update.azurewebsites.net/index.html
+@description : This is the Contact Me Page file of this website
+-->
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment 2 COMP 125 - Contact Page</title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="Contents\css\bootstrap.min.css">
+    <!--
+    <link rel="stylesheet" href="Contents\css\bootstrap-theme.min.css">
+    -->
+    <link rel="stylesheet" href="Contents\css\font-awesome.min.css">
+    <link rel="stylesheet" href="Contents/app.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="index.html"><i class="fa fa-book fa-lg" aria-hidden="true"></i> Assignment 2</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html"><i class="fa fa-user fa-lg" aria-hidden="true"></i> About Me</a></li>
+                    <li><a href="projects.html"><i class="fa fa-file fa-lg" aria-hidden="true"></i> Projects</a></li>
+                    <li class="active"><a href="contact.html"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Contact Me</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+
+
+
+            <!-- Title Bar Section -->
+            <hr>
+            <h1> COMP 125 - Client-Side Web Development - Summer 2016 </h1>
+            <h3> Student Name: Dinesh Palle - Student Number: 300705307 </h3>
+            <hr>
+
+            
+                <h1> Contact Me </h1>
+
+                <p id="contactMeParagraph">
+                    <!-- Contact Me form -->
+
+                    <form id="contactForm" role="form">
+                        <div class="groupForm">
+                            <label for="firstName">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter Your First Name" tabindex="1" required>
+                        </div>
+                        <div class="groupForm">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Enter Your Last Name" tabindex="3" required>
+                        </div>
+                        <div class="groupForm">
+                            <label for="phoneNumber">Phone Number</label>
+                            <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter Your Phone Number" tabindex="5" required>
+                        </div>
+                        <div class="groupForm">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter Your Email Address" tabindex="7" required>
+                        </div>
+                        <div class="groupForm">
+                            <label for="message">Detailed Description</label>
+                            <textarea cols="3" rows="3" class="form-control" id="message" placeholder="Enter Your Detailed Description here..." tabindex="9" required></textarea>
+                        </div>
+                        </br>
+                        <div class="groupForm">
+                            <button id="sendButton" class="btn btn-primary">Send</button>
+                            <a id="cancelButton" href="index.html" class="btn btn-warning">Cancel</a>
+                        </div>
+                    </form>
+
+
+                </p>
+            
+
+
+            <!-- Footer -->
+            <hr>
+            <h6>  &copy;&nbsp;&nbsp;Copyright &nbsp; Student Name: Dinesh Palle - Student Number: 300705307 - Contact Me Page - COMP 125 - Client-Side Web Development - Summer 2016 </h6>
+            <hr>
+
+        </div>
+    </div>
+
+
+
+    <script src="Scripts\jquery-2.2.4.min.js"></script>
+    <script src="Scripts\bootstrap.min.js"></script>
+    <script src="Scripts/app.js"></script>
+</body>
+
+</html>

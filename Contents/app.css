@@ -1,0 +1,31 @@
+/* Custom CSS goes here */
+
+/**
+Filename = app.css
+@author Dinesh Palle
+@date : 10th June 2016
+StudentID : 300705307
+Website : http://comp125assignment2update.azurewebsites.net/index.html
+@description : This is the main CSS file of this website
+*/
+
+
+/* Body */
+body { background-color: #BAECFB}
+h6, h1, h3 {color: #1F2FA3}
+#title {color: #1F2FA3}
+hr {height:5px; border-color:#0028BC  }
+
+/* About Me Page */
+#aboutMeParagraph, #projectsParagraphOne, #projectsParagraphTwo, #projectsParagraphThree { color: black }
+#myPic {float: right; margin-left:15px }
+#logo {width:150px}
+
+/* Contact Me Page */
+#contactForm {color: black}
+
+
+/* Projects Page */
+#proj1 {float: right; margin-left:15px }
+#proj2 {float: right; margin-left:15px }
+#proj3 {float: right; margin-left:15px }
