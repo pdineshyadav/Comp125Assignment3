@@ -3,7 +3,7 @@
 /**
 Filename = app.js
 @author Dinesh Palle
-@date : 10th June 2016
+@date : 8th August 2016
 StudentID : 300705307
 Website : http://comp125assignment2update.azurewebsites.net/index.html
 @description : This is the main javascript file of this website
@@ -68,7 +68,6 @@ Website : http://comp125assignment2update.azurewebsites.net/index.html
         console.log("Email ID :- " + email.value);
         console.log("Detailed Description :- " + message.value);
     }
-    
 
     /*
     Assignment 3 Paragraph.json 
@@ -115,11 +114,10 @@ Website : http://comp125assignment2update.azurewebsites.net/index.html
 
 
 
-
 /**
+
     // Defines Paragraph array
     var paragraph = [];
-
 
     // Data for the pages About me and Projects
     paragraph[0] = "I am a student of <strong>Software Engineering</strong> Program at Centennial College. Previously I studied at <strong>York University</strong>, <b>Winston Churchill CI</b> and <strong> Johnson Grammar School</strong>. I like to play sports. My favourite sport is <strong>Cricket</strong>. I even enjoy running, high jump and shot put. I have received a couple of momentos in the <b> Scarborough Cricket League</b> and few medals in athletics. My mission is to get a job in IT department. I have learnt programming languages like Java, C#, BASICS, etc. I am very much interested in becoming a web developer. I will try my level best to achieve my mission.";
