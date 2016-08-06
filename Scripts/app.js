@@ -5,7 +5,7 @@ Filename = app.js
 @author Dinesh Palle
 @date : 8th August 2016
 StudentID : 300705307
-Website : http://comp125assignment2update.azurewebsites.net/index.html
+Website : http://comp125assignment3-300705307.azurewebsites.net
 @description : This is the main javascript file of this website
 */
 
