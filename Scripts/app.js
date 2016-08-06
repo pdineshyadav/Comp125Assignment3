@@ -68,6 +68,7 @@ Website : http://comp125assignment2update.azurewebsites.net/index.html
         console.log("Email ID :- " + email.value);
         console.log("Detailed Description :- " + message.value);
     }
+    
 
     /*
     Assignment 3 Paragraph.json 
@@ -115,13 +116,11 @@ Website : http://comp125assignment2update.azurewebsites.net/index.html
 
 
 
-
-    // Defines Paragraph array
-    //var paragraph = [];
-
-
-
 /**
+    // Defines Paragraph array
+    var paragraph = [];
+
+
     // Data for the pages About me and Projects
     paragraph[0] = "I am a student of <strong>Software Engineering</strong> Program at Centennial College. Previously I studied at <strong>York University</strong>, <b>Winston Churchill CI</b> and <strong> Johnson Grammar School</strong>. I like to play sports. My favourite sport is <strong>Cricket</strong>. I even enjoy running, high jump and shot put. I have received a couple of momentos in the <b> Scarborough Cricket League</b> and few medals in athletics. My mission is to get a job in IT department. I have learnt programming languages like Java, C#, BASICS, etc. I am very much interested in becoming a web developer. I will try my level best to achieve my mission.";
     paragraph[1] = "Playing 8 ball pool is one of my favourite hobbies. I like playing pool because it is very interesting when we play the game. Eight-ball is played with cue sticks and 16 balls: a cue ball, and 15 object balls consisting of seven striped balls, seven solid-colored balls and the black 8 ball. After the balls are scattered with a break shot, the players are assigned either the group of solid balls or the stripes once a ball from a particular group is legally pocketed. The ultimate object of the game is to legally pocket the eight ball in a called pocket, which can only be done after all of the balls from a player's assigned group have been cleared from the table.";
