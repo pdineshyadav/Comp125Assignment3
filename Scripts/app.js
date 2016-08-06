@@ -14,9 +14,7 @@ Website : http://comp125assignment2update.azurewebsites.net/index.html
     
     // Code goes here
         "use strict";
-    // Paragraph object for AJAX
-    var xhrParagraphContents;
-      
+
       
     // Defines an array for HTML elements
     var elementsOfParagraph = [];
@@ -26,8 +24,7 @@ Website : http://comp125assignment2update.azurewebsites.net/index.html
     elementsOfParagraph[2] = document.getElementById("projectsParagraphTwo");
     elementsOfParagraph[3] = document.getElementById("projectsParagraphThree");
     
-    // Defines Paragraph array
-    var paragraph = [];
+
 
 
     // Create reference to the firstName field
@@ -72,8 +69,55 @@ Website : http://comp125assignment2update.azurewebsites.net/index.html
         console.log("Detailed Description :- " + message.value);
     }
 
+    /*
+    Assignment 3 Paragraph.json 
+    */
+    var xhrMyData;
+    /**
+     * This function reads data from the paragraphs.json file and aligns them with their 
+     * respective ID's with the innerHTML using the if statement 
+     * 
+     * @method readData
+     * @return void
+     */
+    function readData() {
+        if ((xhrMyData.readyState === 4) && (xhrMyData.status === 200)) {
+
+            var MyData = JSON.parse(xhrMyData.responseText);
+            var paragraphs = MyData.paragraphs;
+            paragraphs.forEach(function (paragraph) {
+                var paragraphElement = document.getElementById(paragraph.id);
+                //looks for the element id and aligns it with the paragraphs in the html
+                if(paragraphElement) {
+                     paragraphElement.innerHTML = paragraph.content;
+                }
+               
+            }, this);
+        }
+    }
+    /*
+    This functions loads data from the paragraph.json file to the html file
+    @method loadData
+    @return void
+    */
+    function loadData(){
+        xhrMyData = new XMLHttpRequest();
+        xhrMyData.open("GET","Scripts/paragraphs.json",true);
+        xhrMyData.send(null);
+        xhrMyData.addEventListener("readystatechange",readData);
+    }
+    function init() { 
+     //calls the loadData function 
+        loadData();
+     };
 
 
+
+
+
+
+    // Defines Paragraph array
+    //var paragraph = [];
 
 
 

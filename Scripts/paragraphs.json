@@ -1,28 +1,22 @@
 {
-    "paragraphs": [
-        {
-            "id": "Meer",
-            "content": "Meer Zaheen"
-        },
-        {
-            "id": "0",
-            "content": "I am Meer Zaheen, born on March 12, 1990. I have been living in Toronto, Canada for almost 18 years. I graduated from Seneca College as a Civil Engineer in 2013. Since then, I was employed at an engineering firm called CCI-Group. Formerly I was at a 9 month contract with EXP Inc. I was always passionate about evolving products and disruptive technologies and hence why I chose to continue my education at Centennial College as a Software Engineer. Outside of Engineering and technology, I like to play competitive video games, absorb different cultures and enjoy amazing food. I have always had a passion for sports and personal fitness – not only to lead a healthy lifestyle but to bring out my competitive spirit. I live to serve my talents as an engineer, artist and a fitness enthusiast. I create balance in work, play, and community. Also, I want to be the kind of person my cat already thinks I am."
-        },
-        {
-            "id": "1",
-            "content": "On this page, you will be able to see some of my previous and on-going projects!"
-        },
-        {
-            "id": "3",
-            "contenet": "This was my first ever custom-built desktop PC. I started this project with extreme budget for about 300$ and my initial plan was to keep on upgrading and work on this project. I did a lot of research onto PC components in every aspect possible. I enjoyed working on this project as much as I enjoyed all my other activities. As of now, this custom PC can handle everything thrown at it and there will always be a new upgrade as more and more technology arises."
-        },
-        {
-            "id": "4",
-            "content": "Drawing and sketching has always been a part of my hobbie every since I was very young. This hobbie has somewhat become similar to a project."
-        },
-        {
-            "id": "5",
-            "content": "These are some of the websites I created using Web Expression 4."
-        }
-    ]
+"paragraphs":[
+    {
+    "id":"Dinesh",
+    "content": "Dinesh Palle"
+    },
+    {
+        "id":"aboutMeParagraph",
+        "content":"I am a student of <strong>Software Engineering</strong> Program at Centennial College. Previously I studied at <strong>York University</strong>, <b>Winston Churchill CI</b> and <strong> Johnson Grammar School</strong>. I like to play sports. My favourite sport is <strong>Cricket</strong>. I even enjoy running, high jump and shot put. I have received a couple of momentos in the <b> Scarborough Cricket League</b> and few medals in athletics. My mission is to get a job in IT department. I have learnt programming languages like Java, C#, BASICS, etc. I am very much interested in becoming a web developer. I will try my level best to achieve my mission."
+    },{
+        "id":"projectsParagraphOne",
+        "content":"Playing 8 ball pool is one of my favourite hobbies. I like playing pool because it is very interesting when we play the game. Eight-ball is played with cue sticks and 16 balls: a cue ball, and 15 object balls consisting of seven striped balls, seven solid-colored balls and the black 8 ball. After the balls are scattered with a break shot, the players are assigned either the group of solid balls or the stripes once a ball from a particular group is legally pocketed. The ultimate object of the game is to legally pocket the eight ball in a called pocket, which can only be done after all of the balls from a player's assigned group have been cleared from the table."
+    },{
+        "id":"projectsParagraphTwo" ,
+        "content":"I have been playing cricket since my childhood. Cricket has been part of my life since many years. When I was in India, I played for my school team. After comming to Canada, I continued playing for my school team and became the caption of the team. I even played in the scarborough cricket league. Cricket is a bat-and-ball game played between two teams of eleven players on a cricket field, at the centre of which is a rectangular 22-yard-long pitch with a wicket, a set of three wooden stumps sited at each end. One team, designated the batting team, attempts to score as many runs as possible, whilst their opponents field. Each phase of play is called an innings. After either ten batsmen have been dismissed or a set number of overs have been completed, the innings ends and the two teams then swap roles. The winning team is the one that scores the most runs, including any extras gained, during their period batting."
+    },{
+        "id":"projectsParagraphThree",
+        "content":"I am very much interested in body building. I have been workingout since a year. I don't go regularly but, I go whenever I am free. The best way to enjoy what you do is to vary the way you workout. When you work out, you do a certain number of exercises, right? For example, if you are working your biceps, you don't do every curl movement there is. You do a few of them, like barbell curls, incline dumbbell curls, and alternate dumbbell curls."
+    }
+    
+]
 }
